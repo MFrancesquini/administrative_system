@@ -4,6 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.6.0'
 
 gem 'rails_admin'
+gem 'rails_admin_rollincode'
 gem 'devise', '~> 4.3' 
 gem 'cancancan', '~> 1.15.0'
 
